@@ -1,4 +1,8 @@
 HeavenFull::Application.routes.draw do
+  get "rollercoasters/index"
+
+  get "rollercoasters/show"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

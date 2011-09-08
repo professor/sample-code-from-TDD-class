@@ -28,5 +28,6 @@ gem 'sqlite3'
 # and rake tasks are available in development mode:
 group :development, :test do
   gem "rspec-rails", "~> 2.4"
+  gem "factory_girl_rails"
  end
 
